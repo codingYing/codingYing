@@ -1,0 +1,536 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>title -猪八戒网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="猪八戒网（ZhuBaJie.Com）" />
+    <link rel="shortcut icon" href="http://s.zbjimg.com/img/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" rel="stylesheet" href="http://t5.zbjimg.com/t5s/common/css/global.css?t=41eb43e66addd3a3"/>
+
+    <!-- 引入自己的css -->
+    <link rel="stylesheet" href="main.css"/>
+
+<style type="text/css">
+.ui-header-bd .ui-logo-sub .item-text {
+    display: inline-block;
+    margin-left: 14px;
+    padding: 0 14px;
+    line-height: 54px;
+    border-left: 1px solid #d6d6d6;
+    font-size: 26px;
+    font-weight: 400;
+}
+</style>
+<script>
+    window.ZBJInfo = {
+        pageDomain: "zhubajie.com",
+        baseURI: "zhubajie.com",
+        staticURI: "http://t5.zbjimg.com",
+        isShowChatEntry: 0,
+        searchCfg: {"witkey":{"placeholder":"\u641c\u201c\u516b\u6212\u753b\u50cf\u201d\u8bd5\u8bd5\uff0c\u4e0d\u6b62\u662f\u50cf","def_keyword":"\u516b\u6212\u753b\u50cf"},"service":{"placeholder":"","def_keyword":""},"task":{"placeholder":"","def_keyword":""}}
+    };
+</script>
+<script id="seajsnode" type="text/javascript" src="http://t5.zbjimg.com/seajs/seajs/2.1.1/sea.js"></script>
+<script type="text/javascript" src="http://t5.zbjimg.com/seajs/seajs-style/1.0.0/seajs-style.js"></script>
+<script type="text/javascript" src="http://t6.zbjimg.com/output/seajs-config.js"></script>
+</head>
+<body class="yahei">
+<!--[if lte IE 7]>
+<div class="ui-tips ui-tips-warning ie-update zbj-tips text-center">
+    你正在使用IE低级浏览器，为了您的猪八戒账号安全和更好的产品体验，<br />强烈建议您立即 <a class="blue" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">升级IE浏览器</a> 或者用更快更安全的 <a class="blue" href="https://www.google.com/intl/zh-CN/chrome/browser/?hl=zh-CN" target="_blank">谷歌浏览器Chrome</a> 。
+</div>
+<![endif]-->
+<div class="ui-header header" id="j-zbj-header">
+
+    <div class="ui-header-top" id="j-header-top">
+        <div class="grid zbj-grid">
+            <div class="fl ui-header-greet">
+            <span id="J-header-logic3" class="item-userinfo">
+                <div class="ui-dropdown">
+                    <a rel="nofollow" data-process="1" href="https://login.zhubajie.com/login" class="ui-dropdown-hd item-login">登录<b></b></a>
+                    <ul class="unstyled hezuo-login ui-dropdown-menu">
+                        <li><a rel="nofollow" data-process="1" href="https://login.zhubajie.com/login" class="zhubajie">猪八戒账号登录</a></li>
+                        <li><a  rel="nofollow" data-process="1" href="https://login.zhubajie.com/oauth/redirect/act/taobao" class="taob" title="使用淘宝账号登录">淘宝账号登录</a></li>
+                        <li><a  rel="nofollow" data-process="1" href="https://login.zhubajie.com/oauth/redirect/act/renren" class="ren" title="使用人人网账号登录">人人网账号登录</a></li>
+                        <li><a  rel="nofollow" data-process="1" href="https://login.zhubajie.com/oauth/redirect/act/douban" class="touban" title="使用豆瓣账号登录">豆瓣账号登录</a></li>
+                        <li><a  rel="nofollow" data-process="1" href="https://login.zhubajie.com/oauth/redirect/act/sina" class="xinL" title="使用新浪微博账号登录">新浪微博账号登录</a></li>
+                        <li><a  rel="nofollow" data-process="1" href="https://login.zhubajie.com/oauth/redirect/act/QQ" class="qq" title="使用QQ账号登录">QQ账号登录</a></li>
+                    </ul>
+                </div>
+                <span class="split">|</span>
+                <a  rel="nofollow" data-process="1" href="https://login.zhubajie.com/register" class="item-regx">免费注册</a>
+            </span>
+                <span class="split">|</span>
+
+                <a rel="nofollow" id="j-mobiphone" target="_blank" href="http://app.zhubajie.com/index_pc.html"><i class="iconfont icon-font highlight">&#xe827;</i> 手机APP</a>
+                <div class="mqrcode-wrap j_cms_ctn" id="j-tmp-mobile-entry" data-cmstoken="1bb67e6db836adc2"></div>
+                <span class="split">|</span>
+                <a rel="nofollow" href="http://int.zhubajie.com?utm_source=INT_LuPai&utm_medium=Top&utm_campaign=INT" target="_blank">国际猪八戒</a>
+            </div>
+            <div class="fr ui-header-nav">
+                <a href="http://www.zhubajie.com/"><i class="highlight iconfont">&#xe830;</i> 猪八戒首页</a>
+                <span class="split">|</span>
+                <div class="ui-dropdown">
+                    <a  rel="nofollow" data-process="1" href="http://u.zhubajie.com" class="ui-dropdown-hd">我的猪八戒 <b></b></a>
+                    <ul class="unstyled fr ui-dropdown-menu">
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/task/order">我的订单</a></li>
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/task/broker">我的经纪人</a></li>
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/task/file-type-buyer.html">我的文件柜</a></li>
+                    </ul>
+                </div>
+                <span class="split">|</span>
+                <a  rel="nofollow" href="http://u.zhubajie.com/fav/follow?iden=buyer&_t=1397472922605" target="_blank">收藏夹</a>
+                <span class="split">|</span>
+                <div class="ui-dropdown">
+                    <a  rel="nofollow" data-process="1" href="http://u.zhubajie.com/seller" class="ui-dropdown-hd">服务商中心 <b></b></a>
+                    <ul class="unstyled fr ui-dropdown-menu">
+                        <li><a rel="nofollow" class="j-zbj-shop-entry" href="http://www.zhubajie.com/direct/d?c=5&l=http://www.zhubajie.com/active/wikeyentrance" target="_blank">免费开店</a></li>
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/task/seller">我参与的需求</a></li>
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/services/index">我发布的服务</a></li>
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/service/employ-s-1">我收到的雇佣</a></li>
+                        <li><a  rel="nofollow" data-process="1" target="_blank" href="http://u.zhubajie.com/service/index-s-1">我卖出的服务</a></li>
+                    </ul>
+                </div>
+                <span class="split">|</span>
+                <a href="http://fws.zhubajie.com" target="_blank">服务商指南</a>
+                <span class="split">|</span>
+                <a data-process="1"  target="_blank" href="http://www.zhubajie.com/vip/club/">签约服务商</a>
+                <span class="split">|</span>
+                <a  rel="nofollow" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODA3ODA5MV8xNTgwNDFfNDAwMTg4NjY2Nl8yXw" target="_blank">联系客服</a>
+                <span class="split">|</span>
+                <div class="ui-dropdown ui-dropdown-multi">
+                    <a  rel="nofollow" href="#none" class="ui-dropdown-hd">网站导航 <b></b></a>
+                    <ul class="unstyled fr ui-dropdown-menu">
+                        <li class="highlight">
+                            <a data-process="1"  target="_blank" href="http://www.zhubajie.com/special/logo/">LOGO设计专场</a>
+                            <a rel="nofollow"  data-process="1"  target="_blank" href="http://dakehu.zhubajie.com/">大客户专区</a>
+                        </li>
+                        <li>
+                            <p>服务商</p>
+                            <a rel="nofollow" class="j-zbj-shop-entry" href="http://www.zhubajie.com/direct/d?c=6&l=http://www.zhubajie.com/active/wikeyentrance" target="_blank">免费开店</a>
+                            <a data-process="1" target="_blank"  href="http://www.zhubajie.com/vip/index/">签约服务商</a>
+                            <a target="_blank" href="http://union.zhubajie.com">推广员</a>
+                            <a target="_blank" href="http://edu.zhubajie.com/">猪八戒大学</a>
+                            <a data-process="1"  target="_blank" href="http://www.zhubajie.com/juhe/rank">风云榜</a>
+                            <a class="highlight" target="_blank" href="http://cyy.zhubajie.com">虚拟产业园</a>
+                        </li>
+                        <li>
+                            <a data-process="1" target="_blank" href="http://help.zhubajie.com">帮助中心</a>
+                            <a data-process="1" target="_blank" href="http://chengxin.zhubajie.com">诚信管理中心</a>
+                            <a data-process="1" target="_blank" href="http://search.zhubajie.com/charlist/index.html">热门服务</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://kuaiyin.zhubajie.com/">快印</a>
+                            <a target="_blank" href="http://news.zhubajie.com/">新闻资讯</a>
+                            <a data-process="1" target="_blank" href="http://zt.zhubajie.com/ztoper/wqindex/">微企孵化园</a>
+                            <a target="_blank" href="http://quanzi.zhubajie.com">圈子</a>
+                            <a target="_blank" href="http://gl.zhubajie.com">猪八戒攻略</a>
+                            <a class="highlight" target="_blank" href="http://www.zhubajie.com/mpsj/">名片频道</a>
+                            <a class="highlight" target="_blank" href="http://sj.zhubajie.com">猪八戒市集</a>
+                        </li>
+                        <li>
+                            <p class="mobile-app">手机猪八戒</p>
+                            <a target="_blank" href="http://app.zhubajie.com/bz/">猪八戒（雇主app）</a>
+                            <a target="_blank" href="http://app.zhubajie.com/wx/">猪八戒网微信</a>
+                            <a target="_blank" href="http://app.zhubajie.com/wk/">抢单宝（服务商app）</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-header-bd-wrap" id="j-ui-header-bd-wrap">
+        <div class="grid zbj-grid ui-header-bd ">
+            <div class="fl ui-logo ">
+                <a data-process="1" href="http://www.zhubajie.com" title="猪八戒网" class="ui-logo-main">
+                    <img src="http://t5.zbjimg.com/t5s/lib/img/logo.png" alt="猪八戒让人民为你服务"/>
+                </a>
+            </div>
+            <div class="fr ui-header-entry"><div id="j-head-pubentry" data-process="1" class="ui-dropdown ui-header-task-entry"><a rel="nofollow" target="_blank" href="http://task.zhubajie.com/pub/step1?from_cid=10001" class="ui-dropdown-hd ui-header-task-entry-link">发布一个需求<b></b></d></a><div class="fr ui-dropdown-menu ui-header-task-panel"><div class="task-panel-hd yahei">发布你的需求，坐等服务商上门</div><div class="task-panel-bd"><ul class="unstyled list-unstyled task-reason"><li class="task-reason-response"><div class="task-reason-title">需求发布后</div><div class="task-reason-desc">1小时内收到服务商响应</div></li><li class="task-reason-join"><div class="task-reason-title">每个需求</div><div class="task-reason-desc">平均有10个服务商参与</div></li><li class="task-reason-result"><div class="task-reason-title">95%以上的需求</div><div class="task-reason-desc">得到了圆满解决</div></li></ul><a rel="nofollow" class="ui-btn ui-btn-inverse ui-header-gotopub zbj-btn zbj-btn-primary" href="http://task.zhubajie.com/pub/step1?from_cid=10001" target="_blank">立即发布需求</a></div><div class="task-panel-ft clearfix"><div class="fl ui-header-tasklist"><div class="ui-header-tasklist-scroll" id="j-ui-header-tasklist"></div></div><a class="fr ui-header-gototaskhall" target="_blank" href="http://task.zhubajie.com/">&nbsp;</a></div></div></div></div><div class="fr ui-header-bd-delimiter">或者</div><div class="fr ui-header-search" id="header-search"><form data-process="1" id="j-header-searchform" action="http://search.zhubajie.com/p/" class="ui-form-search"><div class="input-append"><div class="ui-dropdown" id="j-header-searchwrap"><span class="ui-dropdown-hd"><span id="j-header-searchlabel">找服务商</span><i class="iconfont icon-font">&#xe807;</i></span><ul class="unstyled ui-dropdown-menu"><li  class="hide" data-type="witkey"><a href="javascript:;">找服务商</a></li><li  data-type="task"><a href="javascript:;">找&nbsp;需&nbsp;求</a></li><li  data-type="service"><a href="javascript:;">找&nbsp;服&nbsp;务</a></li></ul></div><input data-type="witkey" name="kw" value="" id="j-header-kw" type="text"  class="search-query" placeholder="输入关键字" autocomplete="off" disableautocomplete autocorrect="off" onwebkitspeechchange="this.form.submit();" lang="zh-CN" x-webkit-grammar="builtin:search" x-webkit-speech="true"/><button type="submit" class="ui-btn ui-btn-inverse yahei">搜索</button></div></form></div>
+        </div>
+    </div>
+</div>
+
+<!-- 页面正文开始 -->
+
+<div class="main">
+    <div class="index-header">
+        <h1 class="header-tit">LOGO设计 就到<span class="header-zbj fr"></span></h1>
+        <p class="header-info">
+            <i class="header-level-line"></i>
+                logo design zhubajie your best choice
+            <i class="header-level-line"></i>
+        </p>
+        <div class="service-num"><i class="sn"></i>400-188-6666</div>
+        <i class="down-icon"></i>
+    </div>
+    <div class="index-focus">
+        <div class="grid">
+            <ul class="foc-box fl">
+                <li>
+                    <i class="foc-list-icon fl"><img src="images/easy-icon.png" alt="方便快捷"/></i>
+                    <div class="foc-list-info">
+                        <h4>方便快捷</h4>
+                        <p>说出您的需求，超过20万logo设计服务商为您完成后续工作</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="foc-list-icon fl"><img src="images/cost-icon.png" alt="高性价比"/></i>
+                    <div class="foc-list-info">
+                        <h4>高性价比</h4>
+                        <p>比线下交易便宜至少30%~50%</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="foc-list-icon fl"><img src="images/choices-icon.png" alt="多种选择"/></i>
+                    <div class="foc-list-info">
+                        <h4>多种选择</h4>
+                        <p>一份需求，多份创意，已经为69万多用户提供满意的设计</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="foc-list-icon fl"><img src="images/safe-icon.png" alt="安全可靠"/></i>
+                    <div class="foc-list-info">
+                        <h4>安全可靠</h4>
+                        <p>雇主保障，满意后再付款，出问题双倍赔付</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="foc-tip fr">
+                <div class="foc-tip-box">
+                    <h3>好的LOGO，仅仅只是好看吗？</h3>
+                    <ul>
+                        <li>怎样的LOGO适合您的公司？</li>
+                        <li>怎样能够第一时间吸引用户的注意？</li>
+                        <li>怎样得到您客户的信赖？</li>
+                        <li>怎样能让客户记住您的品牌？</li>
+                    </ul>
+                </div>
+                <p class="foc-tip-info">这一切，20万专业LOGO设计师为您深入思考</p>
+                <a href="###" class="foc-require-btn ui-btn ui-btn-large">
+                    我有LOGO设计需求
+                    <i class="iconfont foc-right-icon">&#xe805;</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="index-step">
+        <div class="grid">
+            <div class="step-path fl">
+                <h2 class="step-path-tit">在这里，您只需：说出您想要什么？</h2>
+                <div class="step-path-box"></div>
+            </div>
+            <div class="step-require fr">
+                <h5><i class="iconfont step-down-icon">&#xe822;</i>我们将为您全程提供协助</h5>
+                <a href="###" class="step-require-btn">
+                    马上说出您的需求
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="index-logo-display">
+        <div class="tit-slogan">
+            <div class="tit-slogan-bd">
+                他们都在<strong>猪八戒网</strong>找到了满意的LOGO
+            </div>
+            <div class="tit-slogan-arrow"></div>
+        </div>
+        <div class="grid">
+            <ul class="logo-display-box">
+                <li class="logo-display-box-list">
+                    <i class="start-company-icon fl"></i>
+                    <div class="logo-display-mask">
+                        <div class="logo-display-img">
+                            <span class="logo-like-num fr">3312<i class="iconfont">&#xe801;</i></span>
+                        </div>
+                        <p class="logo-display-tit">咖啡馆LOGO设计</p>
+                        <div class="logo-display-cont">
+                            <span class="logo-v-line">&#0165;1000<br/>预算</span>
+                            <span class="logo-v-line">2689<br/>稿件份数</span>
+                            <span>3<br/>天完成</span>
+                        </div>
+                        <a href="###" class="logo-require-btn start-company-btn ui-btn ui-btn-large">
+                            我也要类似的设计
+                        </a>
+                    </div>
+                </li>
+                <li class="logo-display-box-list">
+                    <i class="electronic-trade-icon fl"></i>
+                    <div class="logo-display-mask">
+                        <div class="logo-display-img">
+                            <span class="logo-like-num fr">3312<i class="iconfont">&#xe801;</i></span>
+                        </div>
+                        <p class="logo-display-tit">咖啡馆LOGO设计</p>
+                        <div class="logo-display-cont">
+                            <span class="logo-v-line">&#0165;1000<br/>预算</span>
+                            <span class="logo-v-line">2689<br/>稿件份数</span>
+                            <span>3<br/>天完成</span>
+                        </div>
+                        <a href="###" class="logo-require-btn electronic-trade-btn ui-btn ui-btn-large">
+                            我也要类似的设计
+                        </a>
+                    </div>
+                </li>
+                <li class="logo-display-box-list">
+                    <i class="service-trade-icon fl"></i>
+                    <div class="logo-display-mask">
+                        <div class="logo-display-img">
+                            <span class="logo-like-num fr">3312<i class="iconfont">&#xe801;</i></span>
+                        </div>
+                        <p class="logo-display-tit">咖啡馆LOGO设计</p>
+                        <div class="logo-display-cont">
+                            <span class="logo-v-line">&#0165;1000<br/>预算</span>
+                            <span class="logo-v-line">2689<br/>稿件份数</span>
+                            <span>3<br/>天完成</span>
+                        </div>
+                        <a href="###" class="logo-require-btn service-trade-btn ui-btn ui-btn-large">
+                            我也要类似的设计
+                        </a>
+                    </div>
+                </li>
+                <li class="logo-display-box-list">
+                    <i class="other-logo-icon fl"></i>
+                    <div class="logo-display-mask">
+                        <div class="logo-display-img">
+                            <span class="logo-like-num fr">3312<i class="iconfont">&#xe801;</i></span>
+                        </div>
+                        <p class="logo-display-tit">咖啡馆LOGO设计</p>
+                        <div class="logo-display-cont">
+                            <span class="logo-v-line">&#0165;1000<br/>预算</span>
+                            <span class="logo-v-line">2689<br/>稿件份数</span>
+                            <span>3<br/>天完成</span>
+                        </div>
+                        <a href="###" class="logo-require-btn other-logo-btn ui-btn ui-btn-large">
+                            我也要类似的设计
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="index-business">
+        <div class="tit-slogan">
+            <div class="tit-slogan-bd">
+                <p>您也可以选择这些<strong>5星级商家</strong></p>
+            </div>
+            <div class="tit-slogan-arrow"></div>
+        </div>
+        <div class="grid">
+            <ul class="businesses-box fl">
+                <li class="business-list">
+                    <img src="http://placehold.it/220x200/e2b7aa/fff" alt=""/>
+                    <h4 class="business-tit">千树品牌设计</h4>
+                    <span class="business-star-icon">
+                        <i class="iconfont">&#xe81b;&#xe81b;&#xe81b;&#xe81b;&#xe81b;</i>
+                    </span>
+                    <ul class="business-info">
+                        <li>
+                            推荐指数：保证原创设计，不满意全额退款保证原创设计，不满意全额退款
+                        </li>
+                        <li>价格区间：<span>300～3968元</span></li>
+                        <li>成交量：<span>2368单</span></li>
+                        <li>好评率：<span>100%</span></li>
+                        <li>知名合作企业：<span>乡村基 丰谷花</span></li>
+                    </ul>
+                </li>
+                <li class="business-list">
+                    <img src="http://placehold.it/220x200/bae2aa/fff" alt=""/>
+                    <h4 class="business-tit">千树品牌设计</h4>
+                    <span class="business-star-icon">
+                        <i class="iconfont">&#xe81b;&#xe81b;&#xe81b;&#xe81b;&#xe81b;</i>
+                    </span>
+                    <ul class="business-info">
+                        <li>
+                            推荐指数：保证原创设计，不满意全额退款保证原创设计，不满意全额退款
+                        </li>
+                        <li>价格区间：<span>300～3968元</span></li>
+                        <li>成交量：<span>2368单</span></li>
+                        <li>好评率：<span>100%</span></li>
+                        <li>知名合作企业：<span>乡村基 丰谷花</span></li>
+                    </ul>
+                </li>
+                <li class="business-list">
+                    <img src="http://placehold.it/220x200/aad4e2/fff" alt=""/>
+                    <h4 class="business-tit">千树品牌设计</h4>
+                    <span class="business-star-icon">
+                        <i class="iconfont">&#xe81b;&#xe81b;&#xe81b;&#xe81b;&#xe81b;</i>
+                    </span>
+                    <ul class="business-info">
+                        <li>
+                            推荐指数：保证原创设计，不满意全额退款保证原创设计，不满意全额退款
+                        </li>
+                        <li>价格区间：<span>300～3968元</span></li>
+                        <li>成交量：<span>2368单</span></li>
+                        <li>好评率：<span>100%</span></li>
+                        <li>知名合作企业：<span>乡村基 丰谷花</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="business-promise fr">
+            </div>
+        </div>
+    </div>
+    <div class="index-complish">
+        <div class="tit-slogan">
+            <div class="tit-slogan-bd">
+                <p>他们也在这儿<strong>解决需求</strong></p>
+            </div>
+            <div class="tit-slogan-arrow"></div>
+        </div>
+        <div class="grid">
+            <i class="complish-left-icon complish-dir fl"></i>
+                <ul class="complish-box">
+                    <li class="complish-list"><img src="http://placehold.it/185x105/f5f5f5" alt=""/></li>
+                    <li class="complish-list"><img src="http://placehold.it/185x105/f5f5f5" alt=""/></li>
+                    <li class="complish-list"><img src="http://placehold.it/185x105/f5f5f5" alt=""/></li>
+                    <li class="complish-list"><img src="http://placehold.it/185x105/f5f5f5" alt=""/></li>
+                    <li class="complish-list"><img src="http://placehold.it/185x105/f5f5f5" alt=""/></li>
+                </ul>
+            <i class="complish-right-icon complish-dir fr"></i>
+        </div>
+    </div>
+    <div class="index-recommand">
+        <div class="tit-slogan">
+            <div class="tit-slogan-bd recommand-slogan-bd">
+                <p><strong>精选爆款</strong>LOGO服务推荐</p>
+            </div>
+            <div class="tit-slogan-arrow recommand-slogan-arrow"></div>
+        </div>
+        <div class="grid">
+            <ul class="recommand-box">
+                <li class="recommand-list">
+                    <img class="recommand-list-img" src="http://placehold.it/220x200/e2b7aa" alt=""/>
+                    <p>超值LOGO,限时2份</p>
+                    <h3>爆款价<strong>99</strong>元</h3>
+                    <a href="###" class="recommand-buy-btn">立即抢购</a>
+                </li>
+                <li class="recommand-list">
+                    <img class="recommand-list-img" src="http://placehold.it/220x200/bae2aa" alt=""/>
+                    <p>超值LOGO,限时2份</p>
+                    <h3>爆款价<strong>99</strong>元</h3>
+                    <a href="###" class="recommand-buy-btn">立即抢购</a>
+                </li>
+                <li class="recommand-list">
+                    <img class="recommand-list-img" src="http://placehold.it/220x200/aad4e2" alt=""/>
+                    <p>超值LOGO,限时2份</p>
+                    <h3>爆款价<strong>99</strong>元</h3>
+                    <a href="###" class="recommand-buy-btn">立即抢购</a>
+                </li>
+                <li class="recommand-list">
+                    <img class="recommand-list-img" src="http://placehold.it/220x200/aabae2" alt=""/>
+                    <p>超值LOGO,限时2份</p>
+                    <h3>爆款价<strong>99</strong>元</h3>
+                    <a href="javascript:;" class="recommand-buy-btn">立即抢购</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 页面正文结束 -->
+
+<!--临时底部文件-->
+<div class="ui-footer" >
+    <div class="ui-footer-hd clearfix">
+        <div class="grid zbj-grid">
+            <dl class="item-new">
+                <dt>新手指南</dt>
+                <dd><a rel="nofollow" target="_blank" href="https://login.zhubajie.com/register/">注册新用户</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://www.zhubajie.com/main/guide/">雇主入门</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://fws.zhubajie.com/">服务商入门</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://chengxin.zhubajie.com/report/rule-g-2317">规则中心</a></dd>
+            </dl>
+            <dl class="item-buyer">
+                <dt>我是雇主</dt>
+                <dd><a rel="nofollow" target="_blank" href="http://task.zhubajie.com/pub/?from_cid=10001">发布需求</a></dd>
+                <dd><a target="_blank" href="http://home.zhubajie.com/">挑选服务商</a></dd>
+                <dd><a target="_blank" href="http://sj.zhubajie.com/">购买设计作品</a></dd>
+                <dd><a target="_blank" href="http://kuaiyin.zhubajie.com/">成品印刷</a></dd>
+            </dl>
+            <dl class="item-safe">
+                <dt>交易保障</dt>
+                <dd><a rel="nofollow" target="_blank" href="http://task.zhubajie.com/xiaobao/intro">猪八戒担保交易</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://chengxin.zhubajie.com/">争议仲裁</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://quanzi.zhubajie.com/main/topic-qid-7908-tid-382641">雇主防骗</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://quanzi.zhubajie.com/main/topic-qid-1134-tid-382782">服务商防骗</a></dd>
+            </dl>
+            <dl class="item-saler">
+                <dt>我是服务商</dt>
+                <dd><a rel="nofollow" target="_blank" href="http://www.zhubajie.com/active/wikeyentrance">免费开店</a></dd>
+                <dd><a target="_blank" href="http://www.zhubajie.com/vip/club/">加入签约服务商</a></dd>
+                <dd><a target="_blank" href="http://edu.zhubajie.com/">猪八戒大学</a></dd>
+                <dd><a rel="nofollow" target="_blank" href="http://fws.zhubajie.com/">服务商指南</a></dd>
+            </dl>
+            <dl class="item-app">
+                <dt>放心交易</dt>
+                <dd>
+                    <a rel="nofollow" href="http://u.zhubajie.com/newsecurity/intro/" target="_blank" title="放心交易">
+                        <img src="http://t5.zbjimg.com/t5s/uc/images/xb-safe.png" alt="放心交易">
+                    </a>
+                </dd>
+            </dl>
+            <dl class="item-contact">
+                <dt>400-188-6666</dt>
+                <dd class="item-time">周一至周日9:00 - 23:00</dd>
+                <dd class="item-chat"><a rel="nofollow" target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODA3ODA5MV8xNTgwNDFfNDAwMTg4NjY2Nl8yXw"><i class="ui-ico ui-ico-cs-h"></i></a></dd>
+                <dd class="item-sns">
+                    <a rel="nofollow" target="_blank" href="http://weibo.com/zhubajiewang"><i class="ui-ico ui-ico-sina"></i></a>
+                    <a rel="nofollow" target="_blank" href="http://t.qq.com/zhubajie"><i class="ui-ico ui-ico-qq"></i></a>
+                    <a rel="nofollow" target="_blank" href="http://t.sohu.com/u/108262596"><i class="ui-ico ui-ico-sohu"></i></a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="grid zbj-grid ui-footer-bd">
+        <div class="ui-footer-sitelink">
+            <a rel="nofollow" href="http://www.zhubajie.com/about/index.html" target="_blank">关于我们</a><span class="split">|</span>
+            <a rel="nofollow" href="http://www.zhubajie.com/about/contactus.html" target="_blank">联系方式</a><span class="split">|</span>
+            <a rel="nofollow" href="http://zt.zhubajie.com/ztold/adhelp/" target="_blank">广告服务</a><span class="split">|</span>
+            <a href="http://news.zhubajie.com" target="_blank">新闻中心</a><span class="split">|</span>
+            <a href="http://www.zhubajie.com/main/map/" target="_blank">网站地图</a><span class="split">|</span>
+            <a rel="nofollow" href="http://www.zhubajie.com/zizhi/gszz.html" target="_blank">公司资质</a><span class="split">|</span>
+            <a rel="nofollow" href="http://job.zhubajie.com/" target="_blank">加入我们</a><span class="split">|</span>
+            <a rel="nofollow" href="http://www.zhubajie.com/about/payment.html" target="_blank">支付方式</a><span class="split">|</span>
+            <a rel="nofollow" href="http://zt.zhubajie.com/ztold/zbjhezuo/" target="_blank">我也要与猪八戒网合作</a><span class="split">|</span>
+            <a href="http://www.zhubajie.com/abc123/index.html" target="_blank">简版猪八戒</a><span class="split">|</span>
+            <a target="_blank" href="http://search.zhubajie.com/charlist/index.html">热门服务</a>
+        </div>
+        <p class="gray ui-footer-copyright">
+            Copyright 2005-2014 zbj.com  版权所有  <a rel="nofollow" href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow">渝ICP备10202274-1号</a> <a rel="nofollow" href="http://www.cqca.gov.cn/" target="_blank" rel="nofollow">渝B2-20080005</a>
+        </p>
+        <div class="ui-footer-gov">
+            <a href="http://www.cqgseb.cn/ztgsgl/WebMonitor/GUILayer/eImgMana/dztbInfo.aspx?sfdm=120090611153726046127" target="_blank" rel="nofollow">
+                <img src="http://t5.zbjimg.com/r/page/ebs.png" alt="市场监督管理局企业主体身份公示"><span class="item-txt">工商网监电子标识</span>
+            </a>
+            <a rel="nofollow" href="http://www.cqgseb.cn/ztgsgl/WebSiteMonitoring/WebUI/XFWQ/Index.aspx?xh=19" target="_blank" rel="nofollow">
+                <img src="http://t5.zbjimg.com/r/page/xfz.jpg" alt="消费维权服务"><span class="item-txt">消费者维权服务站</span>
+            </a>
+            <a rel="nofollow" href="http://kxlogo.knet.cn/verifyseal.dll?sn=e13091311010042477ead0000000" target="_blank" rel="nofollow">
+                <img src="http://t5.zbjimg.com/t5s/lib/img/time_cnnic.jpg" width="128" height="47" alt="可信网站身份验证"><span class="item-txt">可信网站身份验证</span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--zt.zhubajie.com下fromcode&un_rid推广支持-->
+<img class="hide" src="http://zt.zhubajie.com/c/marketingChecker.gif"/>
+<script type="text/javascript" src="http://t5.zbjimg.com/t5s/output/pkg/common/js/global.js?t=5bb6618e9d1605e4"></script>
+<script type="text/javascript" src="http://t5.zbjimg.com/t5s/common/js/count.js"></script>
+<!-- LOGO处理 -->
+<script>
+    $( document ).ready(function() {
+        if(typeof window.subLogo === 'undefined') {
+            return;
+        }
+        else {
+            var oSubLogo = $("<a class='yahei ui-logo-sub' href='" + (window.subLogo.href || "http://www.zhubajie.com") + "' data-process='1' title='" + (window.subLogo.title||"猪八戒网") + "'><span class='item-text'>" + window.subLogo.text + "</span></a>");
+            oSubLogo.insertAfter("#mainLogo");
+        }
+    });
+</script>
+<!-- 页面脚本开始 -->
+<!-- 页面脚本结束 -->
+</body>
+</html>

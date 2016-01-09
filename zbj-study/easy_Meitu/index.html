@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Img Handler</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div>
+        <div id="btnBox" class="btnBox">
+            <button id="drawPath">路径</button>
+            <button id="drawImg">图片</button>
+            <button id="drawFont">文本</button><input type="text" id="fontText"/>
+            <button id="clearBtn">清除</button>
+        </div>
+        <canvas id="myCanvas" class="myCanvas" width="700px" height="500px;">
+        	你的浏览器不支持canvas
+        </canvas>
+        <div class="effectDiv">
+        	<input type="file" id="uploadFile">
+            <dl>
+                <dt>改变图片效果</dt>
+                <dd>红色通道:<span>1</span><input type="range" name="red" id="red" min="1" max="255" step="1" value="1"/><span id="redMaxValue">255</span></dd>
+                <dd>绿色通道:<span>1</span><input type="range" name="green" id="green" min="1" max="255" step="1" value="1"/><span id="greenMaxValue">255</span></dd>
+                <dd>蓝色通道:<span>1</span><input type="range" name="blue" id="blue" min="1" max="255" step="1" value="1"/><span id="blueMaxValue">255</span></dd>
+                <dd>透明通道:<span>0</span><input type="range" name="blue" id="alpha" min="0" max="100" step="1" value="100"/><span id="alphaMaxValue">100</span></dd>
+            </dl>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+li { list-style: none; }
+
+.ico1 {
+    background: url("images/design-s.png?__sprite");
+    width: 50px;
+    height: 50px;
+}
+.ico2 {
+    background: url('images/design-g.png?__sprite');
+    width: 50px;
+    height: 50px;
+}
+.ico3 {
+    background: url('images/design-p.png?__sprite');
+    width: 50px;
+    height: 50px;
+}
+.ico4 {
+    background: url("images/icon-ali.png?__sprite");
+    width: 77px;
+    height: 19px;
+}
+.ico5 {
+    background: url("images/icon-tencent.png?__sprite");
+    width: 75px;
+    height: 26px;
+}
+.ico6 {
+    background: url("images/icon-baidu.png?__sprite");
+    width: 60px;
+    height: 20px;
+}
+.ico7 {
+    background: url("images/icon-ue.png?__sprite");
+    width: 85px;
+    height: 24px;
+}
+.ico8 {
+    background: url("images/icon-ui.png?__sprite");
+    width: 43px;
+    height: 32px;
+}
+.ico9 {
+    background: url("images/icon-prize.png?__sprite");
+    width: 79px;
+    height: 22px;
+}
+.ico10 {
+    background: url("images/icon-zhanku.png?__sprite");
+    width: 79px;
+    height: 29px;
+}
+.ico11 {
+    background: url("images/status-spare.png?__sprite");
+    width: 70px;
+    height: 70px;
+}
+.ico12 {
+    background: url("images/status-busy.png?__sprite");
+    width: 70px;
+    height: 70px;
+}
+.ico13 {
+    background: url("images/category.png?__sprite");
+    width: 77px;
+    height: 41px;
+}
+.ico14 {
+    background: url("images/zhuanchang.png?__sprite");
+    width: 78px;
+    height: 39px;
+}
+.ico15 {
+    background: url("images/icon-rencai.png?__sprite");
+    width: 50px;
+    height: 50px;
+}
+.ico17 {
+    background: url("images/icon-stander.png?__sprite");
+    width: 50px;
+    height: 50px;
+}
+.ico16 {
+    background: url("images/icon-procedule.png?__sprite");
+    width: 50px;
+    height: 50px;
+}
+.ico18 {
+    background: url("images/logo.png?__sprite");
+    width: 120px;
+    height: 40px;
+}
+.ico19 {
+    background: url("images/hot.png?__sprite");
+    width: 30px;
+    height: 42px;
+}
+.ico20 {
+    background: url("images/icon-dianzan.png?__sprite");
+    width: 14px;
+    height: 11px;
+}
+.ico21 {
+    background: url("images/icon-title.png?__sprite");
+    width: 24px;
+    height: 24px;
+}
+.ico22 {
+    background: url("images/upload.png?__sprite");
+    width: 22px;
+    height: 16px;
+}
+.ico23 {
+    background: url("images/icon-s.png?__sprite");
+    width: 20px;
+    height: 20px;
+}

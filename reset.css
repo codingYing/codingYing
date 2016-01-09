@@ -1,0 +1,185 @@
+@charset "utf-8";
+/*清除设置默认*/
+html {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+   height:100%;/*==在IE下body的百分高度需要在html设置此值==*/
+}
+html, body, div, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, img, button, fieldset, form, hr, input, legend, li, ol, p, pre, table, th, td, textarea, th {
+	margin: 0;
+	padding: 0
+}
+body{
+	-webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+body, button, input, select, textarea {
+	font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5FAE\8F6F\96C5\9ED1, \5b8b\4f53, sans-serif;/* 用 ascii 字符表示，使得在任何编码下都无问题  字体根据需要设置*/
+	color: #666;
+}
+b, strong { font-weight: bold; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+ 
+[hidden],
+template {
+  display: none;
+}
+h1, h2, h3, h4, h5, h6, input, i, b, em {
+	font-weight: normal;
+}
+ul, ol {
+	list-style: none
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	background-color: transparent;
+	}
+a:active, a:hover {
+	outline: none
+}
+a:focus {
+	outline: none;
+	-moz-outline: none;
+}
+h2, h3 {
+	page-break-after: avoid
+}
+button, input, optgroup, select, textarea {
+	color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button {
+	overflow: visible
+}
+button, select {
+	text-transform: none;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}
+button, input, select, textarea {
+	font-size: 100% ; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+/*-iE7.0中自带的-ms-interpolation-mode属性可以解决缩放失真问题*/
+fieldset,img {
+	border: none;
+	max-width: 100% !important;
+	-ms-interpolation-mode: bicubic;
+	page-break-inside: avoid
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+input, img, select {
+	vertical-align: middle;
+}
+input {
+	line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; 
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+  box-sizing: content-box; 
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+	overflow: auto;
+	resize: none
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: transparent
+}
+@-ms-viewport {
+	width: device-width
+}
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after, .clearfix:before {
+	display: table;
+	content: " ";
+	clear: both
+}
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto
+}
+
+/*处理文字效果*/
+.text-center {
+	text-align: center;
+	zoom: 1;
+	}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.break {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.inline-block{display: inline-block;}
+.inline{display: inline;}
+.pull-right {
+	float: right !important
+}
+.pull-left {
+	float: left !important
+}
+.hide {
+	display: none !important
+}
+.show {
+	display: block !important
+}
+@font-face {
+	font-family: 'FontName';
+	src: url('FileName.eot');
+	src: url('FileName.eot?#iefix') format('embedded-opentype'),
+		 url('FileName.woff') format('woff'),
+		 url('FileName.ttf') format('truetype'),
+		 url('FileName.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+			
