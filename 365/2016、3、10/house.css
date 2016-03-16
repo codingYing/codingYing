@@ -44,6 +44,127 @@ div {
     z-index: 2;
 }
 
+.z3{
+    z-index: 3;
+}
+
 .w22{
     width: 22px;
+}
+.w232{
+    width: 232px;
+}
+.w172{
+    width: 172px;
+}
+.t8{
+    top: 8px;
+}
+.t34{
+    top: 34px;
+}
+.t60{
+    top: 60px;
+}
+.t154{
+    top: 154px;
+}
+.t180{
+    top: 180px;
+}
+.t206{
+    top: 206px;
+}
+.t232{
+    top: 232px;
+}
+.t258{
+    top: 258px;
+}
+.t284{
+    top: 284px;
+}
+.t310{
+    top: 310px;
+}
+.t336{
+    top: 336px;
+}
+.t362{
+    top: 362px;
+}
+.t388{
+    top: 388px;
+}
+.t414{
+    top: 414px;
+}
+.t440{
+    top: 440px;
+}
+.t466{
+    top: 466px;
+}
+.l30{
+    left: 30px;
+}
+.l60{
+    left: 60px;
+}
+.l90{
+    left: 90px;
+}
+.l120{
+    left: 120px;
+}
+.l150{
+    left: 150px;
+}
+.l180{
+    left: 180px;
+}
+.l210{
+    left: 210px;
+ }
+.l240{
+    left: 240px;
+}
+.l270{
+    left: 270px;
+}
+.l300{
+    left: 300px;
+}
+.l360{
+    left: 360px;
+}
+.l420{
+    left: 420px;
+}
+.l480{
+    left: 480px;
+}
+.l510{
+    left: 510px;
+}
+.l540{
+    left: 540px;
+}
+.l570{
+    left: 570px;
+}
+.l600{
+    left: 600px;
+}
+.l630{
+    left: 630px;
+}
+.l660{
+    left: 660px;
+}
+.l690{
+    left: 690px;
+}
+.l720{
+    left: 720px;
 }
