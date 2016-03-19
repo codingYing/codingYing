@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Practice</title>
+</head>
+<body>
+
+<script>
+
+    //1--对维数组转一维数组
+    var arr = [1,2,3,[[4,5],6,[[7,8,9],[10,11]]]];
+    function rFn(arr){
+        if(Object.prototype.toString.apply(arr) !== '[object Array]') { //判断arr是否为数组;
+            return;
+        }
+        var newArr = [];
+        function fn(arr){
+            for(var i = 0; i < arr.length; i++){
+                if(arr[i].length){            //判断是否为多维数组
+                    fn(arr[i]);
+                }else{
+                    newArr.push(arr[i]);
+                }
+            }
+        }
+        fn(arr);
+        return newArr;
+    }
+    console.log(rFn(arr));
+
+    //2--var str = 'http://s.weibo.com/weibo/Aralic?topnav=1&wvr=6'获得参数名和参数值
+    function f(url){
+        var l = url.indexOf('?');
+        if(l != -1){
+            var obj = {};
+            var arr = url.substring(l + 1,url.length).split('&');
+            for(var i = 0; i < arr.length; i++){
+                obj[arr[i].split('=')[0]] = arr[i].split('=')[1];
+            }
+            return obj;
+        }
+    }
+    console.log(f('http://s.weibo.com/weibo/Aralic?topnav=1&wvr=6'));
+
+    //3--将数字转换为千分位表示
+    var num = 123456789.9;
+    function numFn(num){
+        if(typeof num != 'number'){
+            return;
+        }
+        num += '';
+        if(num.indexOf('.') != -1){
+            return dFn(num.split('.')[0]) + '.' + num.split('.')[1];
+        }else{
+            return dFn(num);
+        }
+        function dFn(newNum){
+            var str = '';
+            var len = newNum.length;
+            while(len > 3){
+                str = ',' + newNum.slice(len -3,len) + str;
+                len = len-3;
+            }
+            str = newNum.slice(0,len) + str;
+            return str;
+        }
+    }
+    console.log(numFn(num));
+
+</script>
+</body>
+</html>
